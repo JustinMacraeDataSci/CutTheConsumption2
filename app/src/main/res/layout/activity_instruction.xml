@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instruction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.justinmacrae.hype.Instruction">
+
+    <TextView
+        android:text="This app is made to help promote shorter shower times and less water usage."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="After this, you may enter the arena. Inside awaits different enemies, primarily the sword."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="When a red sword appears, quickly place yourself under it and swipe upwards to parry the swing and protect yourself, landing a free hit after."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Some secret enemies appear as well, and you must use different techniques to defeat them! Think fast!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="To give yourself an advantage taking a shorter shower is very benefitial! Get into practice!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="To start off you click the start button to start recording your shower, realistically clicking right before you enter."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Upon exit, you hit the stop button. From here the app tells you the total amount of gallons you used."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="You will also notice it gives you an amount of stamina as well. Based on the length and time of your shower."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="By tapping your sword you can move to a different position. By swiping left or right while the enemy sword is blue results in a hit taking off hp from the enemy."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="These attacks deal more damage while you have available stamina to spend."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
